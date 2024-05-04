@@ -1,0 +1,69 @@
+.bgContainer {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk5EVDWGD-8zacwUVJeUQpyKRPdgMoCuMe4g&s');
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainHeading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  background-color: white;
+  padding: 25px 30px;
+
+  border-radius: 8px;
+}
+
+.labelItem {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.eachInput {
+  margin-top: 6px;
+  width: 240px;
+  height: 40px;
+  outline: none;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.eachInputDiv {
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.calculateButton {
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.calculateButton:hover {
+  background-color: #45a049;
+}
+
+.simpleInterestResult {
+  font-size: 18px;
+  margin-top: 25px;
+  color: black;
+}
